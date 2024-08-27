@@ -7,7 +7,7 @@
   <meta name="description" content="Svelte template" />
 </svelte:head>
 
-<section class="my-container">
+<section class="container mx-auto">
   <h2>This is the home page</h2>
 
   <Counter />
@@ -16,10 +16,5 @@
 <style>
   h2 {
     color: darkblue;
-  }
-
-  .my-container {
-    width: 400px;
-    margin: 10px auto;
   }
 </style>

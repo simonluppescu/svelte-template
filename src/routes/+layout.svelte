@@ -11,3 +11,9 @@
     <slot />
   </main>
 </div>
+
+<style lang="postcss">
+  a {
+    @apply text-blue-600 underline;
+  }
+</style>

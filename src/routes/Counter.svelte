@@ -9,7 +9,7 @@
   <p>And this is doubled: {double}</p>
 
   <button
-    class="button"
+    class="button bg-blue-200"
     on:click={() => {
       count -= 1;
     }}
@@ -17,7 +17,7 @@
     Decrement
   </button>
   <button
-    class="button"
+    class="button bg-emerald-200"
     on:click={() => {
       count += 1;
     }}
@@ -26,5 +26,8 @@
   </button>
 </div>
 
-<style>
+<style lang="postcss">
+  .button {
+    @apply shadow rounded p-2;
+  }
 </style>
