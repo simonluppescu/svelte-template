@@ -1,9 +1,12 @@
 {
-	"semi": true,
-	"trailingComma": "none",
-	"singleQuote": false,
-	"printWidth": 100,
-	"tabWidth": 2,
-	"arrowParens": "always",
-	"quoteProps": "preserve"
+  "semi": true,
+  "trailingComma": "none",
+  "singleQuote": false,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "quoteProps": "preserve",
+  "svelteAllowShorthand": false,
+  "svelteBracketNewLine": true,
+  "htmlWhitespaceSensitivity": "ignore"
 }
